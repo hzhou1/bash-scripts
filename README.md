@@ -1,2 +1,2 @@
 # bash-scripts
-handy bash scriptfor AWS Cli, OpenShift, Pipelines, etc
+handy bash scripts or commands for AWS Cli, OpenShift, Pipelines, etc
