@@ -7,8 +7,6 @@ if [[ $# -lt 1 ]]; then
     exit 1
 fi
 
-IMAGE_META="$( aws ecr describe-images --repository-name=$1 --image-ids=imageTag=$2 2> /dev/null )"
-
 REPOS_META="$( aws ecr describe-repositories --repository-names $1 2> /dev/null )"
 
 if [[ $? == 0 ]]; then
